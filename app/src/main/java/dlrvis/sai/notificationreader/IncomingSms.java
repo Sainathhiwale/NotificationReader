@@ -21,7 +21,7 @@ public class IncomingSms extends BroadcastReceiver {
 
     public void onReceive(Context context, Intent intent) {
 
-        // Retrieves a map of extended data from the intent.
+        // Retrieves a map of extended data from the intent
         final Bundle bundle = intent.getExtras();
 
         try {
